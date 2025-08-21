@@ -9,11 +9,8 @@ import CreationForm from "./components/CreationForm";
 import LoadingScreen from "./components/LoadingScreen";
 import BookViewer from "./components/BookViewer";
 import Bookshelf from "./components/Bookshelf";
-import CreationForm from "../components/CreationForm";
-import LoadingScreen from "../components/LoadingScreen";
-import BookViewer from "../components/BookViewer";
-import Bookshelf from "../components/Bookshelf";
-import { Header } from "../components/Header";
+import CreationForm from "./components/CreationForm";
+import { Header } from "./components/Header";
 
 // API から返る JSON の最低限の形
 type ApiBook = {
