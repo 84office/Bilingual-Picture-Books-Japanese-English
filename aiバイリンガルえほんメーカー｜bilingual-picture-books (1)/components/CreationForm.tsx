@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import type { CreationParams } from '../types';
-import { ANIMALS, THEMES, LANGUAGES } from '../constants';
+import type { CreationParams } from '../app/lib/types';
+import { ANIMALS, THEMES, LANGUAGES } from '../app/lib/constants';
 
 interface CreationFormProps {
   onSubmit: (params: CreationParams) => void;

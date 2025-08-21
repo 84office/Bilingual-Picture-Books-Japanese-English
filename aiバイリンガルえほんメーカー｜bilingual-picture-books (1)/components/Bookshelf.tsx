@@ -1,7 +1,7 @@
 import React from 'react';
-import type { Book } from '../types';
+import type { Book } from '../app/lib/types';
 import { TrashIcon } from './icons';
-import { parseFurigana } from '../utils/textParser';
+import { parseFurigana } from '../app/lib/utils/textParser';
 
 interface BookshelfProps {
   books: Book[];
