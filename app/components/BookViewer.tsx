@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import type { Book } from '../lib/types';
-import { useSpeechSynthesis } from '../lib/hooks/useSpeechSynthesis';
-import { parseFurigana } from '../lib/utils/textParser';
+import type { Book } from '@/app/lib/types';
+import { useSpeechSynthesis } from '@/app/lib/hooks/useSpeechSynthesis';
+import { parseFurigana } from '@/app/lib/utils/textParser';
 import { ChevronLeftIcon, ChevronRightIcon, PlayIcon, PauseIcon, SpeakerOnIcon, SpeakerOffIcon, TextIcon, NoTextIcon, CloseIcon, GlobeIcon, BookshelfIcon } from './icons';
 
 interface BookViewerProps {
